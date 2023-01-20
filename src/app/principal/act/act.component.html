@@ -1,0 +1,29 @@
+<section class="container-md">
+    <section class="border border-5 border-dark">
+        <section>
+            <h1 class="text-center" [ngStyle]="{'color':'white','background-color':'#8b0000'}">Bienvenido a la aplicación de Interceptores - Certus!</h1>
+                <img src="../../../assets/angular.png" alt="logo de angular" class="rounded-1">
+        <pre class="d-none">{{posts|json}}</pre>
+        <section class="container-sm">
+          <table class="table table-hover">
+            <thead class="text-center table-dark">
+              <tr>
+               <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of posts">
+                <td class="text-center table-dark">{{item.id}}</td>
+                <td class="text-center table-danger">{{item.title}}</td>
+                <td class="table-danger">{{item.body}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </section>
+  </section>
+  
+  

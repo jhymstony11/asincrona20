@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;  
+}
+table {
+	width: 85%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
